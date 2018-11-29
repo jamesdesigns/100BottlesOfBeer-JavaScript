@@ -1,0 +1,74 @@
+body {
+  background-color: yellow;
+  font-family: 'Roboto', sans-serif;
+  font-size: 105%;
+}
+
+#test {
+  color: #707070;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 3%;
+  text-align: center;
+  border: 1px solid #4d2600;
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 31%;
+  margin-right: 35%;
+
+}
+
+#beer {
+  background-image: url("bottled-beers.png");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-left: 31%;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 400%;
+  font-weight: bold;
+  color: #4d2600;
+  margin-top:-1px;
+}
+
+h5 {
+  font-size: 120%;
+}
+
+.btn {
+  margin-top: -25px;
+  margin-left: 32%;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 150px;
+  background-color: #ccc;
+  border-radius: 8px;
+  color: #000;
+  font-size: 120%;
+  border: 1px solid #000
+}
+
+.btn:hover, .btn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+img {
+  margin-left:40%;
+  margin-top:3%;
+}
+
+.position {
+  position: relative;
+  bottom: 0;
+  margin-left:-250px;
+  z-index: -1000;
+
+}
+
+input:focus {
+    outline: none;
+}
